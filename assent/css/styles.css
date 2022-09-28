@@ -1,0 +1,176 @@
+*{
+    margin :5px;
+    padding: 3px;
+}
+
+html,body{
+    background-color: green;
+    
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13pt;
+}
+#contenedor{
+    background-color: white;
+
+}
+
+#header{
+    color: green;
+    background-image: url(../img/Call-of-Duty-Modern-Warfare-1-portada.jpg);
+    background-repeat: no-repeat;
+    background-position: 30pc;
+    background-color: black;
+    
+}
+
+#header h1{
+    line-height: 35pc;
+     margin-left: 100px;
+}
+
+
+
+#cuerpo h1{
+    color: black;
+    line-height: 5pc;
+    text-align: center;
+    background-color: green;
+ 
+}
+
+#cuerpo h2{
+    color:yellow;
+    background-color: black;
+    line-height: 5pc;
+    text-align: center;
+}
+
+#cuerpo h3{
+    color:yellow;
+    background-color: green;
+    line-height: 5pc;
+    text-align: center;
+}
+
+#nav{
+    background-color: white;
+    width: 50%;
+}
+
+#nav ol{
+    list-style-type: none;
+    
+    
+}
+
+#nav ol li{
+display: inline-flexbox;
+padding: 15px;
+text-decoration:none;
+color: black;
+background-color: green;
+margin-left: 150px;
+text-align: center;
+}
+
+#nav ol li a{
+    display: block;
+    
+    text-decoration: none;
+}
+
+
+#nav ol li a:hover{
+    color: red ;
+    background-color: coral;
+}
+
+.texto1{
+    text-align: justify;
+  background-color: yellow;
+}
+
+
+#footer{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+
+.mapa{
+    margin-left: 5pc;
+    margin-bottom: 5pc;
+}
+input[type="text"]{
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+    
+    }
+    
+    input[type="number"]{
+        width: 500px;
+        height: 35px;
+        padding-left: 10px;
+        
+        }
+    
+    input[type="email"]{
+            width: 500px;
+            height: 35px;
+            padding-left: 10px;
+            
+            }
+            input[type="submit"] {
+                
+                
+                background-color: yellow;
+                color: black;
+                
+            }
+            input[type="submit"]:hover {
+                
+                background-color:red;
+                color: black;
+                
+            }
+    
+    textarea{
+        width: 500px;
+        height: 100px;
+    }
+    
+    form{
+        width: 50%;
+        height: 100%;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        float: left;
+    }
+    label{
+        color: blue;
+    }
+    iframe{
+        margin: 15px 15px 15px 15px;}
+
+#cuerpo h8{
+    color:yellow;
+    background-color: black;
+    line-height: 5pc;
+    margin-left: 50pc;
+}
+
+#cuerpo h5{
+    color:yellow;
+    background-color: black;
+    line-height: 5pc;
+    text-align: center;
+}
+
